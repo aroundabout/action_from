@@ -4,7 +4,7 @@ on:
   push:
     # 当 master 分支有变更的时候触发 workflow
     branches:
-      - master
+      - main
       - 'release-*'
       - 'test-*'
   workflow_dispatch:
